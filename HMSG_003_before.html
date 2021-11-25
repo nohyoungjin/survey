@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="path/favicon.ico">
+	<title>행복 서베이</title>
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/content_before.css" />
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body class="page">
+
+	<!-- skip -->
+
+	<ul id="skip_navi">
+		<li><a href="#content">본문 바로가기</a></li>
+	</ul>
+
+	<!-- //skip -->
+
+	<!-- wrap -->
+
+	<div id="wrap">
+
+		<!-- header -->
+
+		<div id="header">
+			<div class="h_group">
+				<div>
+					<h1>
+						<a href="index.html" class="logo">
+							<span class="blind">SK 주식회사 c&c</span>
+						</a>
+					</h1>
+					<div class="message">당신의 마음을 행복MSG로 전하세요.</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- //header -->
+
+		<!-- container -->
+
+		<div id="container">
+			<div id="content" class="content hmsg_03">
+
+				<section class="sec_send">
+					<div class="sec_inner">
+
+						<h2 class="h2_tit"><img src="img/common/tit_1.png" alt="행복MSG 보내기"></h2>
+
+						<div class="clearfix">
+							<div class="f_r">
+								<div class="img_area">
+									<ul class="lst_def">
+										<li>행복 MSG는 하루에 딱 한 명에게만 보낼 수 있습니다.</li>
+										<li>발신인이 행복 MSG를 보낸 후, 수신인이 VDI 로그인할 때 확인할 수 있어요. <br>(수신인이 이미 VDI에 로그인했다면 내일, 아직 VDI 로그인 전이라면 오늘 확인할 가능성이 높아요)</li>
+										<li>행복 MSG는 무조건 익명으로 전달 됩니다.</li>
+									</ul>
+								</div>
+							</div>
+							<div class="f_l">
+								<img src="img/common/img_survey_3.jpg" alt="할수있어, 힘내, 화이팅" class="web">
+								<img src="img/common/img_survey_3_mb.jpg" alt="할수있어, 힘내, 화이팅" class="mobile">
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<!--  -->
+
+				<section class="sec_why">
+					<div class="sec_inner">
+
+						<h2 class="h2_tit"><img src="img/common/tit_2.png" alt="누구에게 보내시겠어요?"></h2>
+
+						<!--  -->
+
+						<div class="search_area">
+							<div class="search_inner">
+								<form action="javascript:" id="search_form" class="search_form" autocomplete="off">
+									<label for="inp_search" class="inp_label"><span class="blind">이름을 입력해 주세요.</span></label>
+									<div class="sizing_wrap">
+										<input type="text" name="s" id="inp_search" class="inp_search" placeholder="이름을 입력해 주세요.">
+
+										<button type="button" class="search_refresh">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  width="26" height="26" fill="#333333"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+											<span class="blind">새로고침</span>
+										</button>
+
+										<button type="submit" class="search_submit">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26"><path fill="none" d="M0 0h24v24H0z"></path><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z" fill="rgba(52,72,94,1)"></path></svg>
+											<span class="blind">검색하기</span>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+
+						<!--  -->
+
+						<div class="people_wrap">
+
+							<p class="search_total a_l">총 <em>100명</em>이 검색 되었습니다.</p>
+
+							<table class="scroll">
+								<caption>보내는 분 테이블 (번호, 부서, 이름)</caption>
+								<thead>
+									<tr>
+										<th>번호</th>
+										<th>부서</th>
+										<th>이름</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>100</td>
+										<td>인사팀</td>
+										<td>홍길동</td>
+									</tr>
+									<tr>
+										<td>100</td>
+										<td>기획팀</td>
+										<td>홍길동</td>
+									</tr>
+									<tr class="on">
+										<td>100</td>
+										<td>영업팀1</td>
+										<td>홍길동</td>
+									</tr>
+									<tr>
+										<td>100</td>
+										<td>영업팀2</td>
+										<td>홍길동</td>
+									</tr>
+									<tr>
+										<td>100</td>
+										<td>영업팀3</td>
+										<td>홍길동</td>
+									</tr>
+									<tr>
+										<td>100</td>
+										<td>영업팀4</td>
+										<td>홍길동</td>
+									</tr>
+									<tr>
+										<td>100</td>
+										<td>영업팀5</td>
+										<td>홍길동</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+
+					</div>
+				</section>
+
+				<!--  -->
+
+				<section class="sec_msg">
+					<div class="sec_inner">
+
+						<h2 class="h2_tit"><img src="img/common/tit_3.png" alt="어떤 내용을 보내시겠어요?"></h2>
+
+						<div class="clearfix">
+							<div class="f_l">
+
+								<p class="a_l"><em>인사팀</em>의 <em>홍길동</em>님께 행복MSG를 보내 드립니다.</p>
+
+								<div class="translate_area">
+									<div class="mes_head">
+										행복MSG 입력하기
+
+										<div class="lst_tab">
+											<a href="javascript:" role="button" class="btn_nav btn_prev on" title="직접입력">직접입력</a>
+											<a href="javascript:" role="button" class="btn_nav btn_next" title="선택입력">선택입력</a>
+										</div>
+									</div>
+
+									<div class="tab_cont0 unify">
+										<div id="sourceEditArea" class="edit_area">
+											<label for="txtSource">
+												<textarea rows="1" name="txtSource" id="txtSource" class="edit_box" placeholder="메시지를 입력해 주세요 (50자 내)" onKeyUp="javascript:fnChkByte(this,'50')"></textarea>
+											</label>
+										</div>
+
+										<p class="txt_count">(<span id="byteInfo">0</span>/50)</p>
+									</div>
+
+									<div class="tab_cont1 unify">
+										<ul class="lst_mes">
+											<li>
+												<input type="radio" name="talk" id="A1" class="radio">
+												<label for="A1">오늘도 즐거운 하루 보내세요.</label>
+											</li>
+											<li>
+												<input type="radio" name="talk" id="A2" class="radio">
+												<label for="A2">날씨가 더운데 시원한 아이스커피~~</label>
+											</li>
+											<li>
+												<input type="radio" name="talk" id="A3" class="radio">
+												<label for="A3">행복한 하루 보내세요.</label>
+											</li>
+											<li>
+												<input type="radio" name="talk" id="A4" class="radio">
+												<label for="A4">나의 행운을 받아라~ 얍!!</label>
+											</li>
+											<li>
+												<input type="radio" name="talk" id="A5" class="radio">
+												<label for="A5">오늘도 즐거운 하루 보내세요.</label>
+											</li>
+											<li>
+												<input type="radio" name="talk" id="A6" class="radio">
+												<label for="A6">날씨가 더운데 시원한 아이스커피~~</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							
+							</div>
+							<div class="f_r">
+
+								<div class="img_area">
+									<div class="inner"><!-- 날씨가 더운데 시원한 아이스커피~~ --></div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="bn_wrap">
+							<span class="bn bn_big bn_sin bn_bk on"><a href="javascript:">행복MSG 보내기</a></span>
+							<!-- <span class="bn bn_big bn_bk"><a href="javascript:">그냥<br>VDI 시작</a></span> -->
+						</div>
+
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+		<!-- //container -->
+
+		<!-- footer -->
+
+		<!-- <script src="inc/footer.js"></script> -->
+
+		<!-- //footer -->
+
+	</div>
+
+	<!-- //wrap -->
+
+	<script src="js/common.js"></script>
+
+	<script>
+
+	$(function() {
+
+		// init
+
+		tableScroll()
+		tabs()
+		txtMove()
+
+		// 테이블 스크롤
+
+		function tableScroll() {
+
+			// Change the selector if needed
+			var $table = $('table.scroll')
+			var $bodyCells = $table.find('tbody tr:first').children()
+			var colWidth
+
+			// Adjust the width of thead cells when window resizes
+			$(window).resize(function() {
+				// Get the tbody columns width array
+				colWidth = $bodyCells.map(function() {
+					return $(this).width();
+				}).get();
+				
+				// Set the width of thead columns
+				$table.find('thead tr').children().each(function(i, v) {
+					$(v).width(colWidth[i]);
+				});    
+			}).resize(); // Trigger resize handler
+
+		}
+
+		// 탭 전환 
+
+		function tabs() {
+
+			$('.lst_tab a').on('click', function() {
+
+				$('.unify').hide()
+				$('.tab_cont' + $(this).index()).show()
+
+				$(this).siblings('.on').removeClass('on')
+				$(this).addClass('on')
+
+				$('.lst_tab a').attr('title', '')
+				$(this).attr('title', '현재 탭')
+
+			})
+
+		}
+
+		//
+
+		function txtMove() {
+
+			var $source = $('#txtSource')
+			var $output = $('.hmsg_03 .clearfix .f_r .img_area .inner')
+			var	$byteInfo = $('#byteInfo')
+
+			$('.lst_tab a').on('click', function() { 
+				$source.val('')
+				$byteInfo.text('0')
+				$output.text('')
+			})
+
+			$source.keyup(function() {
+			   $output.text($source.val())
+			})
+
+			$('.lst_mes input:radio').on('click', function() { 
+				$output.text($(this).next().text())
+			})
+
+		}
+
+	})
+
+	// 바이트 체크
+
+	function fnChkByte(obj, maxByte) {
+
+		var str = obj.value;
+		var str_len = str.length;
+
+		var rbyte = 0;
+		var rlen = 0;
+		var one_char = '';
+		var str2 = '';
+
+		for (var i = 0; i < str_len; i++) {
+			one_char = str.charAt(i);
+
+			if (escape(one_char).length > 4) {
+				rbyte += 1; // 한글 2Byte
+			} else {
+				rbyte++; // 영문 등 나머지 1Byte
+			}
+
+			if (rbyte <= maxByte) {
+				rlen = i + 1; // return할 문자열 갯수
+			}
+		 }
+
+
+		 if (rbyte > maxByte) {
+			// alert('한글 ' + (maxByte/2) + '자 / 영문 ' + maxByte + '자를 초과 입력할 수 없습니다.');
+			alert('메세지는 최대 ' + maxByte + '자를 초과할 수 없습니다.')
+			str2 = str.substr(0,rlen); // 문자열 자르기
+			obj.value = str2;
+			fnChkByte(obj, maxByte);
+		 } else {
+			document.getElementById('byteInfo').innerText = rbyte;
+		 }
+
+	}
+
+	</script>
+
+</body>
+</html>
